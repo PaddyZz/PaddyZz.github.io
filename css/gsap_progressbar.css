@@ -1,0 +1,23 @@
+progress {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 0.5rem;
+  border: none;
+  background: transparent;
+}
+progress::-webkit-progress-bar {
+  background: transparent;
+}
+progress::-webkit-progress-value {
+  background: #3273dc;
+  background-attachment: fixed;
+}
+progress::-moz-progress-bar {
+  background: #3273dc;
+  background-attachment: fixed;
+}

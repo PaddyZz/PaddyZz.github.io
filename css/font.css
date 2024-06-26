@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'PT Sans Narrow';
+  src: url("../font/PTN.ttf") format('truetype');
+  font-weight: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'PT Sans Narrow';
+  src: url("../font/PTN-Bold.ttf") format('truetype');
+  font-weight: bold;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'LXGW';
+  src: url("../font/LXGW.ttf") format('truetype');
+  font-weight: bold;
+  font-display: swap;
+}
