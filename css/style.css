@@ -10788,6 +10788,9 @@ body > .section {
 .card:hover {
   box-shadow: 0 6px 15px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.1);
 }
+.categories-uppercase {
+  text-transform: uppercase;
+}
 .tag-uppercase {
   text-transform: uppercase;
 }
@@ -10806,6 +10809,9 @@ body > .section {
 }
 .caption-font-style {
   font-size: 1.3rem !important;
+}
+.font-style-font-weight-bold {
+  font-weight: bold;
 }
 .border-radius-ver1 {
   border-radius: 15px !important;
