@@ -11805,6 +11805,10 @@ a.navbar-item:focus #svg-element g {
 body.night {
   background: #0e1225;
 }
+body.night ::-webkit-scrollbar {
+  width: 15px;
+  height: 8px;
+}
 .night .hljs {
   display: block;
   overflow-x: auto;
@@ -11872,6 +11876,24 @@ body.night {
 }
 .night .profile-name-svg-style g {
   fill: #c0c0c0;
+}
+.night .widget-profile-follow-button-style:hover .color-linkedin {
+  color: #3273dc;
+}
+.night .widget-profile-logo-style:hover .color-github {
+  color: #000;
+}
+.night .widget-profile-logo-style:hover .color-kaggle {
+  color: #66cdaa;
+}
+.night .widget-profile-logo-style:hover .color-facebook {
+  color: #0645ad;
+}
+.night .widget-profile-logo-style:hover .color-X {
+  color: #ab47bc;
+}
+.night .widget-profile-logo-style:hover .color-discord {
+  color: #5865f2;
 }
 .night progress {
   height: 0.3rem;
