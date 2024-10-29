@@ -10,9 +10,22 @@
   font-weight: bold;
   font-display: swap;
 }
+/*
 @font-face {
   font-family: 'LXGW';
-  src: url("../font/LXGW.ttf") format('truetype');
+  src: url('../font/LXGW.ttf') format('truetype');
   font-weight: bold;
+  font-display:swap;
+}*/
+@font-face {
+  font-family: 'PT_Serif_Bold';
+  src: url("../font/PTSerif-Bold.ttf") format('truetype');
+  font-weight: bold;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'PT_Serif_Regular';
+  src: url("../font/PTSerif-Regular.ttf") format('truetype');
+  font-weight: normal;
   font-display: swap;
 }

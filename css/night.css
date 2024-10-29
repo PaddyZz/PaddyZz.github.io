@@ -14,10 +14,6 @@ a.navbar-item:focus #svg-element g {
 body.night {
   background: #0e1225;
 }
-body.night ::-webkit-scrollbar {
-  width: 15px;
-  height: 8px;
-}
 .night .hljs {
   display: block;
   overflow-x: auto;
@@ -165,6 +161,11 @@ body.night ::-webkit-scrollbar {
 .night .navbar-main .navbar-menu .navbar-item:focus {
   color: #fff;
   background-color: #373d48;
+}
+.night .navbar-item-home {
+  color: transparent !important;
+  background-clip: text;
+  background-image: linear-gradient(105deg, #743ad5, #d53a9d);
 }
 .night .navbar-item-logo {
   color: #0ff !important;
